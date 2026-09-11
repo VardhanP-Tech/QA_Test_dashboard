@@ -31,15 +31,6 @@ npm install
 npm run dev
 ```
 
-## PostgreSQL
-
-Set `DATABASE_URL` before starting the API:
-
-```powershell
-$env:DATABASE_URL = "postgresql+psycopg://qa_user:qa_password@localhost:5432/qa_dashboard"
-```
-
-`docker-compose.yml` supplies the matching local database configuration.
 
 ## API
 
